@@ -7,9 +7,8 @@ import fileio.*;
 import java.io.*;
 public class Main{
 	public static void main(String[] args){
-		boolean indicator= true;
 		try{
-		System.out.println("Welcome To Student Portal");
+			System.out.println("Welcome To Student Portal");
 		boolean select = true;
 		Scanner input = new Scanner(System.in);
 		Scanner input2 = new Scanner(System.in);
@@ -418,10 +417,12 @@ public class Main{
 							System.out.println("Invalid Input");
 							break;
 			}
-			break;
+			
 		}
-	}catch(Exception e){
-		System.out.println("Wrong input.Try Again");
-	}	
-		}
+		
+		
+		}catch(Exception e){
+			System.out.println("Wrong Input. Try Again!");
+		}//while loop er ending
+		}//try ending
 }
